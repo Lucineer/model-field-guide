@@ -1,0 +1,4 @@
+data/interactions.json
+.env
+__pycache__/
+*.pyc
