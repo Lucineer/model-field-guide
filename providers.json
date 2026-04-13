@@ -1,0 +1,27 @@
+{
+  "deepinfra": {
+    "base_url": "https://api.deepinfra.com/v1",
+    "api_key_env": "DEEPINFRA_API_KEY",
+    "models": {
+      "ByteDance/Seed-2.0-mini": {"type": "creative", "tier": "cheap", "context": 8192},
+      "bytedance/Seed-2.0-pro": {"type": "creative", "tier": "premium", "context": 16384},
+      "Qwen/Qwen3.5-397B-A17B": {"type": "reasoning", "tier": "expensive", "context": 32768},
+      "Qwen/Qwen3-32B": {"type": "general", "tier": "medium", "context": 32768},
+      "meta-llama/Llama-4-Scout-17B-16E-Instruct": {"type": "analysis", "tier": "medium", "context": 128000},
+      "microsoft/phi-4": {"type": "edge", "tier": "cheap", "context": 16384},
+      "NousResearch/Hermes-3-Llama-3.1-405B": {"type": "ideation", "tier": "expensive", "context": 131072},
+      "NousResearch/Hermes-3-Llama-3.1-70B": {"type": "creative", "tier": "medium", "context": 131072},
+      "Sao10k/L3.3-70B-Euryale-v2.3": {"type": "creative", "tier": "medium", "context": 8192},
+      "allenai/Olmo-3.1-32B-Instruct": {"type": "research", "tier": "medium", "context": 131072},
+      "ByteDance/seed-2.0-mini": {"type": "creative", "tier": "cheap", "context": 8192}
+    }
+  },
+  "deepseek": {
+    "base_url": "https://api.deepseek.com/v1",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "models": {
+      "deepseek-chat": {"type": "general", "tier": "medium", "context": 65536},
+      "deepseek-reasoner": {"type": "reasoning", "tier": "expensive", "context": 65536}
+    }
+  }
+}
